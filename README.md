@@ -8,17 +8,26 @@ Predict the compressive strength of concrete using its composition (cement, slag
 **Features**
 
 Data loading and exploration
+
 Data visualization
+
 Preprocessing and feature scaling
+
 Model training and evaluation using:
+
 Linear Regression
+
 Decision Tree Regressor
+
 Random Forest Regressor
+
 Support Vector Regressor (SVR)
+
 K-Nearest Neighbors Regressor
-XGBoost Regressor
+
 Model comparison and performance metrics
-Dataset
+
+**Dataset**
 
 The dataset should be in CSV format and contain the following columns:
 
