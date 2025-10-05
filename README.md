@@ -1,9 +1,9 @@
 **Concrete Strength Prediction**
-This repository contains a Jupyter Notebook for predicting the compressive strength of concrete based on its composition and age using various machine learning models.
+This dataset contains experimental data on the compressive strength of concrete, a critical property in structural engineering. It’s commonly used to model and predict how different ingredient combinations affect the final strength of concrete mixtures.
 
 **Problem Statement**
 
-Predict the compressive strength of concrete using its composition (cement, slag, ash, water, superplasticizer, coarse aggregate, fine aggregate) and age.
+To build a regression model that predicts the compressive strength of concrete based on its composition and age. This can help optimize mix designs for construction projects, reduce costs, and improve safety.
 
 **Features**
 
@@ -29,14 +29,20 @@ Model comparison and performance metrics
 
 **Dataset**
 
-The dataset should be in CSV format and contain the following columns:
+**cement**	Amount of cement in the mix (kg/m³)
 
-cement
-slag
-ash
-water
-superplastic
-coarseagg
-fineagg
-age
-strength
+**slag**	Amount of blast furnace slag (kg/m³)
+
+**ash**	Amount of fly ash (kg/m³)
+
+**water**	Amount of water (kg/m³)
+
+**superplastic**	Amount of superplasticizer (kg/m³)
+
+**coarseagg**	Amount of coarse aggregate (kg/m³)
+
+**fineagg**	Amount of fine aggregate (kg/m³)
+
+**age**	Age of the concrete sample in days
+
+**strength**	Measured compressive strength of concrete (MPa) — this is the target label
